@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" , type="text/css" , href="style.css" />
+	<title>Map</title>
+</head>
+
+<body>
+	<div id="map"></div>
+
+	<div id="list">
+		<div id="element", style="display:none">
+			<input type="text" , id="place-1" ,class="name" />
+			<input type="number" , id="time-1" , class="time" />
+			<select id="travel-mode-1" , class="TravelMode">
+				<option value="walk">Walk</option>
+				<option value="train">Train</option>
+				<option value="bus">Bus</option>
+			</select>
+			<span id="travel0" , class="travel"></span>
+		</div>
+		<div id="element">
+			<input type="text" , id="place0" ,class="name" />
+			<input type="number" , id="time0" , class="time" />
+			<select id="travel-mode0" , class="TravelMode">
+				<option value="walk">Walk</option>
+				<option value="train">Train</option>
+				<option value="bus">Bus</option>
+			</select>
+			<span id="travel0" , class="travel"></span>
+		</div>
+		<div id="element">
+			<input type="text" , id="place1" ,class="name" />
+			<input type="number" , id="time1" , class="time" />
+			<select id="travel-mode1" , class="TravelMode">
+				<option value="walk">Walk</option>
+				<option value="train">Train</option>
+				<option value="bus">Bus</option>
+			</select>
+			<span id="travel1" , class="travel"></span>
+		</div>
+		<div id="element">
+			<input type="text" , id="place2" ,class="name" />
+			<input type="number" , id="time2" , class="time" />
+			<select id="travel-mode2" , class="TravelMode">
+				<option value="walk">Walk</option>
+				<option value="train">Train</option>
+				<option value="bus">Bus</option>
+			</select>
+			<span id="travel2" , class="travel"></span>
+		</div>
+		<div id="element">
+			<input type="text" , id="place3" ,class="name" />
+			<input type="number" , id="time3" , class="time" />
+			<select id="travel-mode3" , class="TravelMode">
+				<option value="walk">Walk</option>
+				<option value="train">Train</option>
+				<option value="bus">Bus</option>
+			</select>
+			<span id="travel3" , class="travel"></span>
+		</div>
+		<div id="element">
+			<input type="text" , id="place4" ,class="name" />
+			<input type="number" , id="time4" , class="time" />
+			<select id="travel-mode4" , class="TravelMode">
+				<option value="walk">Walk</option>
+				<option value="train">Train</option>
+				<option value="bus">Bus</option>
+			</select>
+			<span id="travel4" , class="travel"></span>
+		</div>
+		<div id="element">
+			<input type="text" , id="place5" ,class="name" />
+			<input type="number" , id="time5" , class="time" />
+			<select id="travel-mode5" , class="TravelMode">
+				<option value="walk">Walk</option>
+				<option value="train">Train</option>
+				<option value="bus">Bus</option>
+			</select>
+			<span id="travel5" , class="travel"></span>
+		</div>
+		<div id="element">
+			<input type="text" , id="place6" ,class="name" />
+			<input type="number" , id="time6" , class="time" />
+			<select id="travel-mode6" , class="TravelMode">
+				<option value="walk">Walk</option>
+				<option value="train">Train</option>
+				<option value="bus">Bus</option>
+			</select>
+			<span id="travel6" , class="travel"></span>
+		</div>
+		<div id="element">
+			<input type="text" , id="place7" ,class="name" />
+			<input type="number" , id="time7" , class="time" />
+			<select id="travel-mode7" , class="TravelMode">
+				<option value="walk">Walk</option>
+				<option value="train">Train</option>
+				<option value="bus">Bus</option>
+			</select>
+			<span id="travel7" , class="travel"></span>
+		</div>
+		<div id="element", style="display:none">
+			<input type="text" , id="place8" ,class="name" />
+			<input type="number" , id="time8" , class="time" />
+			<select id="travel-mode8" , class="TravelMode">
+				<option value="walk">Walk</option>
+				<option value="train">Train</option>
+				<option value="bus">Bus</option>
+			</select>
+			<span id="travel0" , class="travel"></span>
+		</div>
+	</div>
+
+	<div class="Info">
+		<input type="number" , id="time" />
+		<span id="alltime">Time</span>
+	</div>
+
+	<div id="push-button"></div>
+
+	<script src="index.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbNSgW3-WwODBzaDYK80F7Yscv2CRblxM&callback=initMap&libraries=places&channel=GMPSB_locatorplus_v4_c" async defer></script>
+</body>
